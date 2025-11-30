@@ -62,6 +62,7 @@ public class FileService {
                         response.setFileName(files.get(i));
                         response.setLineText(line);
                         response.setLineNumber(String.valueOf(lineNumber));
+                        responses.add(response);
                     }
                 }
             } catch (FileNotFoundException e) {
