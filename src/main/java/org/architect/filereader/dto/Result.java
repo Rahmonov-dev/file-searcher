@@ -1,4 +1,4 @@
-package org.architect.filereader;
+package org.architect.filereader.dto;
 
 import lombok.Data;
 
