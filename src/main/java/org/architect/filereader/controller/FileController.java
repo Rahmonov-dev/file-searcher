@@ -19,5 +19,4 @@ public class FileController {
     public ResponseEntity<Result> searchFiles(@PathVariable String pattern ) {
         return ResponseEntity.ok(fileService.searchFiles(pattern));
     }
-
 }
